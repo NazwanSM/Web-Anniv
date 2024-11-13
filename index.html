@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1st Anniversary</title>
+    <link rel="shortcut icon" href="img/love-png-5.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+    rel="stylesheet">
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+      <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  <body>
+    
+    <section id="hero"
+     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h1>Nazwan & Pasya</h1>
+        <p>Anniversary countdown:</p>
+        <div class="simply-countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Isi</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Anniv</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Anniv</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#story">Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Anniversary Day</h2>
+            <h3>Diselanggarakan pada 22 Oktober 2023 di Bandung, Jawa Barat.</h3>
+            <p>Semoga tanggal ini bisa terus dirayakan dengan judul yang sama di setiap tahunnya.</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="col">
+              <div class="row">
+                <div class="col-8 text-end">
+                  <h3>Nazwan Siddqi Muttaqin</h3>
+                  <p>Seorang cowo biasa yang tiba tiba terpincut oleh seorang bidadari bernama Pasya.</p>
+                  <span>Putra dari Bpk. Zaenal Muttaqin <br> dan <br> Ibu Lia Yuliani</span>
+                </div>
+                <div class="col-4">
+                  <img src="img/N.jpg" alt="Nazwan Siddqi Muttaqin" class="img-responsive rounded-circle">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="col">
+              <div class="row">
+                <div class="col-4">
+                  <img src="img/P.jpg" alt="Pasya Rizky Amartha" class="img-responsive rounded-circle">
+                </div>
+                <div class="col-8">
+                  <h3>Pasya Rizky Amartha</h3>
+                  <p>Seorang bidadari cantik nan jelita yang entah bagaimana bisa memilih untuk bersama seorang cowo biasa ini dibanding ribuan orang lain.</p>
+                  <span>Putri dari Bpk. Andi Kurniawan <br> dan <br> Ibu Kartika</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Lapang Triron Point <br> Jl. Raya Cipadung, Cipadung Wetan, Kec. Panyileukan, Kota Bandung</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6681403136427!2d107.7121315!3d-6.930211099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c33b24e508b9%3A0x71282a7d2a6c0a44!2sTRITAN%20POINT%20BANDUNG!5e0!3m2!1sid!2sid!4v1697744433644!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a href="https://maps.app.goo.gl/BP39TuAhPnnY9auR8" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal.</p>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Anniversary
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>10.00 - 13.40</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 22 Oktober 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Akhirnya ketemu lagi setelah sekian lama ga ketemu. Tiba tiba setaun gini.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Konser
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>15.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 22 Oktober 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saatnya melepaskan penat selama seminggu kebelakang dengan ngonser.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>how our loves grow</span>
+            <h2>Our Story</h2>
+            <p>Sebuah kisah dua bocil yang mengawali kisah cintanya di bangku 4 SD dan tidak berakhir baik. Tapi mereka mencoba lagi untuk membuat lembaran baru di dalam kisah cinta mereka di bangku kelas 12 SMA.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/IMG_8426.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>My First Move</h3>
+                    <span>14 Juli 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Hari dimana untuk pertama kalinya aku memberanikan diri untuk memulai suatu pergerakan dengan membuat sebuah question box
+                       yang hanya ditujukan untuk satu orang. Udah nunggu lama kok dia ga bales bales. Alhamdulillahnya kamu mengisi question box
+                        itu trus aku langsung cpet cpet ngafalin lagunya trus langsung upload h + 2. Dari move ini nih kisah kita bisa dimulai.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/IMG_0310.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3> Our First Photo</h3>
+                    <span>22 Juli 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Kamu inget ini kan? Untuk pertama kalinya kita foto sebelahan dengan segala rasa malu yang campur aduk dan membuat aku terlihat
+                       aneh di foto. Tapi ini sangatlah memorable karena foto ini akan selalu menjadi awal dari ribuan foto foto kita berdua selanjutnya.
+                      Oiya aku juga baru nyadar kalau tanggalnya sama banget sama tanggal kita, berarti 3 bulan nihh usahanya biar bisa foto pake bunga hihihi.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/IMG_0309.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Macaron for Pasya</h3>
+                    <span>5 Agustus 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Wah ini sih hari paling penting buat aku di awal awal. Setelah kejadian ini aku jadi semakin semangat dan pd buat terus berjuang
+                       ngedapetin kamu, apalagi pas dispill vn kamu ke berlima yang membuat aku menjadi cowo paling bahagia di dunia (kopken) hahahaha. Honorable
+                        mention buat haspi yang udah membuat foto ini ada.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/20220827_084809944_iOS.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Our First Date</h3>
+                    <span>27 Agustus 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>First Date yang kaya ga ngedate hahaha. Untuk pertama kalinya kita pergi keluar bareng ya walaupun masih bersama 5 orang ngintilin gara2 blom dapet izin hahaha. Kita banyak banget foto di sini dan bisa bisanya aku langsung ngepost di sec padahal baru first date hehe. Oiya hari ini juga campur aduk sih sbenernya, kamu inget kan hari ini kita dibiarin di mobil berdua dan berujung nyasar ke palang rw 2 yang aku tubruk ituu hahaha duh. Emang hari yang paling bahagia tapi menyimpan trauma juga.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/22\ Oktober\ 2022.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Our Day!</h3>
+                    <span>22 Oktober 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Ya hari ini, tepat satu taun aku memberanikan diri untuk menanyakan gimana kelanjutan dari hubungan kita setelah 3 bulan dari foto pertama kita. Walaupun sebenarnya hari ini bukanlah tanggal yang benar benar secara resmi ditandai sebagai hari anniv kita, tapi atas persetujuan kita setelah beberapa bulan akhirnya tanggal 22 10 22 menjadi tanggal penting di dalam hubungan kita.
+                      Pada awalnya aku bingung dengan jawaban kamu di hari itu dan membuat aku tidak mempunyai kepastian di hari hari selanjutnya. Tapi setelah berbulan bulan kita bersama, kita tiba tiba saja membahas tentang hari ini dan membuatnya sebagai tanggal bersejarah bagi kita berdua. Walaupun rencanaku di awal tidak bisa terlaksana dengan mulus, tapi hari ini,
+                     tanggal 22 Oktober 2023 aku merasa sangat senang dan bahagia sekali karena sudah ditakdirkan untuk bersamamu selama satu tahun ini dan semoga bisa terus bersama sampai kapanpun itu. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/12\ November\ 2023.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Concert</h3>
+                    <span>12 November 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Wah ini sih pertama kali konser bareng kamu dan sekaligus bner bner kali pertamanya aku ikut konser. Aku baru ngerasain rasanya konser dan seruu bangett apalagi bareng kamuu dan tmen tmen yang lainn, di saat yang lain pada udah tumbang ga kuat berdiri, kita masih bertahan berdua bareng azah sampe akhir bangett. Pokoknya seru banget deh inii, semoga kita bisa nonton konser yang banyak banyakk lagi yaa,
+                      terutama kalau bisa sih konser bruno mars, mahalini, sama iky dehh. Huh semoga terwujudd dehh amiinn.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gallery/26\ November\ 2022.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pasya's Birhday</h3>
+                    <span>26 November 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>H+2 hari ulang tahun kamuu!! Hari dimana untuk pertama kalinya aku bertemu dengan keluarga besar kamuu untuk pertama kalinya (ya baru dikit sih), trus di hari ini juga buat pertama kalinya aku foto bareng keluarga kamu terus debut di ig mami deh hahaha. Oiya di hari ini juga kita pertama kali duet di depan banyak orang bawain lagu best part yang beuh buat orang orang ngefans sama kita hahahaha. Ya walaupun
+                      pas hari itu suara aku bner bner lagi ga fit dan bkin nyanyinya jelek deh. Aku cukup kecewa sih pas hari ini, soalnya hadiah yang aku kasih buat kamuu ternyata kamunya juga udah punyaa.. Hahaha tapi gapapa deh yang penting kamu bahagia dengan semua yang bisa aku kasih buat kamu walaupun cuman sedikit. Oiya semoga di tahun tahun selanjutnya aku bakal selalu menjadi orang pertama yang ngucapin selamat ulang tahun buat kamu
+                    dan orang pertama yang selalu kamu tunggu ucapannya.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gallery/21\ Desember\ 2022.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Festival Budaya</h3>
+                    <span>21 Desember 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Salah satu hari beratnya aku nih hahahaha. Di saat aku harus melihat kamuu harus bersanding dengan orang lain buat acara ini. Ditambah lagi aku yang harus menjadi photographernya, ya aku sih tetep profesional ya jadii santai wehh tetep moto moto hahahaha. Malah guru-guru aih yang nanyain keaadaan aku saat itu kaya gimana, padahal biasa aja kok bener hehe. Hari ini udah berlalu kok dan WOW kamu cantik banget disini asli dengan baju adat khas palembang tuh beuh cantikk bett.
+                      Tenang kok aku ga marah samsek buat ini, profesional aja akumahh ahahaha.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gallery/29\ Januari\ 2023.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Nazwan's Birthday</h3>
+                    <span>29 Januari 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Hari ulang tahun aku. Aku cuman mau bilang terimakasih banyak sih atas semua waktu dan semua usaha yang kamuu kasih buat aku di hari inii. Makasii banyak buat semua hadiahnya apalagi yang wish in jar tuh lucuu banget parah. Ya intinya akuu bakal terus menunggu ucapan selamat ulang tahun dari kamuu di tahun tahun ke depan.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gallery/7\ Maret\ 2023.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>BALI!!!</h3>
+                    <span>7 Maret 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Wah bali ini seruu parah sihh, bisa jalan jalan jauh bareng temen temen dan yang pasti bareng kamu juga. Walaupun ada peraturan yang kaya gitu juga ah bodo amat yaa hahaha kita gas aja anggep gaada. Bener bener perjuangan sih buat dapet foto bagus di bali itu. Ada yang pertama foto di jimbaran sunset yang bagussss banget itu, eh fotonya kureng bangett. Trus pas yang di desa juga sempet foto tapi keburu ada yanda willy ngelewat hahahaha. Duh memang ada banget perjuangannya buat dapet foto bagus di bali ini.
+                      Ya pokoknya semoga kita bisa pergi jalan jalan jauh bareng lagii, terutama ke swiss yaa nantiii insyaAllah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gallery/27\ April\ 2023.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Strolling Around Braga</h3>
+                    <span>27 April 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Ini one of the best date sihh. Seru bangett kita yang awalnya makan siang dlu di wheels, trus berangkat deh ke braga buat jalan jalan. Nah di situu kita eksplor braga dari mulai ke greyartgallery yang bagus bett, trus ke toko tahi lalat yang masih misteri itu lorong di pinggrinya mengarah kemana hahha, trus muter muter deh nyari toilet yang dkettt. Abis berapa kali puteran di braga aku tiba tiba kepikiran buat ngasih surprise ke kamu. Aku pas itu pura pura solat lama padahal aku diem diem ngambil uang di atm terus beli bunga
+                      mawar deh buat kamuu hehe. Untung misinya berhasil dan kamu seneng dehh dapet bunganya.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gallery/18\ Mei\ 2023.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Survey UTBK</h3>
+                    <span>18 Mei 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Duh ngeliat foto ini sih campur aduk yaa. Di satu sisi aku seneng banget bisa masuk ke kampus impian akuu, tapi aku sedih gabisa sesuai dengan harapan kita yaitu satu kampus. Itu pemikiran pas itu aja sihh, sekarang mah kamu di telkom aku di ITB jugaa udah baguss bangett ga ada bedanyaa. Buktinya kita masih bisa sering ketemu kan di sela sela kesibukan kita juga. Jadi dengan takdir yang sekarang juga aku udah bersyukur banget masih bisa ketemu kamu walaupun ga bisa setiap hari ketemu. Semangatt terus ya kamu kuliahnyaa di tel-U!!!
+                      Nanti kita lulus bareng yaaa.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gallery/17\ Juni\ 2023.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Graduation!</h3>
+                    <span>17 Juni 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Cewe di sebelah aku ini nih yang bner bner ngebuat aku yakin buat ngambil kesempatan jadi orang yang ngasih speech perpisahan di akhir. Alhamdulillah banget sih itu pidatonyha lancar banget trus bisa bkin impress banyak orang hehe.
+                      Duh pokoknya wisuda ini sedihnya ada senengnya ada. Perjuangan kita selama 12 tahun di alazhar bner bner berakhir di sinii. Bersyukur banget bisa mengakhirinya bareng kamuu hehe. Oiya kamu cantik bangettt deh pas wisuda ituu, mana make up sendiri lagii,
+                      beuh jago banget emang gausah diraguin lagii. 
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image2" style="background-image: url(img/gallery/thumbnail/8\ Agustus\ 2023\ \(1\)-1.png);;"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Photo Studio</h3>
+                    <span>8 Agustus 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Setelah hampir 10 bulan bareng, untuk pertama kalinya ini kita photo studio bareng. Yang awalnya mau pake bunga fotonya tapi gajadi gara gara udah mepet banget waktunya. Tapi untung aja prop di sana juga mayan bagus baguss jadi pas dipake juga lucuu, apalagi yang kacamata nih jadi kece bet hahahaha. Seneng bangett dehh hasil fotonya bagus bagus semua gaada yang gagal.
+                      Ditambah pas mau pulangnya kita sempetin buat record coverr laguu yang lagi diputerin di backgroundd iniii hehe. Setelah berbagai halangan akhirnya kesampean juga buat cover bareng dan hasilnyaa sangat memuaskan ya gais. Pokoknya nanti kita bkin cover yang banyak banyak lagii yaa biar bisa jadi next iky lini hahahaha.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gallery/10\ September\ 2023.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Orchid Forest</h3>
+                    <span>10 September 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Di tempat ini seruu bangett sihh kita bisa jalan jalan lama, dari siang sampe malem bett kita masih di sini. Jalan jalan menikmati hutan trus kita ke cafenya juga yang lucu dan estetik bangett. Tapi minesnya sih disitu tirizzz parahh hahaha. Oiya trus di sini tuh bner bner vlog pertama kita yang dari awal sampe akhir di shoot. Semuanya seru banget deh pokoknya kalau bareng kamu mah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gallery/);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Anniversary</h3>
+                    <span>22 Oktober 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Ini nih hari yang bner bner kita tunggu, tanggal kita, hari kita, punya kita. Aku mau ngucapin selamattt anniversaryy buat kitaa!!! makasi banyak udah sabar, kuat, dan tenang dengan segala tingkah laku aku selama setahun ini. Makasih udah menjadi salah satu sosok paling penting dalam hidup aku. Makasi udah mau bareng bareng sama aku terus yang penuh dengan kekurangan ini. Makasi banyak atas segala perjuangan, waktu, emosi, dan tenaga yang udah kamu relain buat hubungan kita. Makasi udah menjadi pasya yang ceria, cantik, lucu, gemes, bawel, bocil, manja, dan semuanya pokoknya terimakasih kamu sudah menjadi diri sendiri.
+                      Terima kasih udah selalu nemenin aku dan selalu ada buat aku kapanpun itu. Terima kasih udah menjadi tempat berpulang disaat aku cape dengan keseharian aku. Terima kasih udah selalu ngabarin aku sesibuk apapun kamu bahkan hampir selalu dengan pap yang selaluuu cantik dan gemes. Terima kasih juga udah menjadikan aku tempat cerita, tempat berbagi kebahagiaan, dan tempat mengeluh di dalam semua momen kehidupan kamu. Semua hal kecil yang kamu ceritain ke aku, semuanya sangat berarti bagi aku dan selalu aku ingat sampai kapanpun itu. Maaf kalau selama satu tahun ini aku belum bisa menjadi cowo yang ideal buat kamuu, blom bisa menjadi
+                      yang kamu inginkan, masih selalu mengulang kesalahan yang sama, gabisa dibilangin, dan selalu teledor hehe. Terima kasih udah menerima aku apa adanya pasyaa. Dan Terimakasih untuk segala galanya. Aku sangat amat bersyukur bisa bersamamu di satu tahun terakhir ini. Satu tahun terakhir ini merupakan satu tahun paling bahagia dalam hidup aku. Begitu banyak memori memori indah yang tercipta di dalam kisah hidup kita berdua. Berjuta juta terimakasih masih belum bisa membalas segala kebaikanmu kepadaku. Ratusan kata yang aku tulis di sini juga masih belum bisa menggambarkan seberapa bersyukurnya aku bisa mendapatkan kamu.
+                      Aku sangat beryukur bisa terus bareng kamu. Semoga kita bisa terus sampe berpuluh puluh tahun kedepan yaaa. Terakhir, semoga kamu suka dengan semua yang aku buat ini. Sekian, I Love You Sayang!!!
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Our Memory</span>
+            <h2>Photo Gallery</h2>
+            <p>Terima kasih telah membuat 1 tahun ini menjadi 1 tahun paling bahagia dalam hidupku.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/22 Juli 2022.jpeg" data-toggle="lightbox" data-caption="22 Juli 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/22 Juli 2022.png" alt="22 Juli 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/5 Agustus 2022.png" data-toggle="lightbox" data-caption="5 Agustus 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/5 Agustus 2022.png" alt="5 Agustus 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/17 Agustus 2022.jpeg" data-toggle="lightbox" data-caption="17 Agustus 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/17 Agustus 2022.png" alt="17 Agustus 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/tutup muka.jpeg" data-toggle="lightbox" data-caption="First Pose" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/tutup muka.png" alt="First Pose" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/27 Agustus 2022.jpeg" data-toggle="lightbox" data-caption="27 Agustus 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/27 Agustus 2022.png" alt="27 Agustus 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8 September 2022.png" data-toggle="lightbox" data-caption="8 September 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/8 September 2022.png" alt="8 September 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/25 September 2022.jpeg" data-toggle="lightbox" data-caption="25 September 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/25 September 2022.png" alt="25 September 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/21 Oktober 2022.jpeg" data-toggle="lightbox" data-caption="21 Oktober 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/21 Oktober 2022.png" alt="21 Oktober 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/22 Oktober 2022.jpg" data-toggle="lightbox" data-caption="22 Oktober 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/22 Oktober 2022.png" alt="22 Oktober 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/28 Oktober 2022.jpg" data-toggle="lightbox" data-caption="28 Oktober 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/28 Oktober 2022.png" alt="28 Oktober 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/12 November 2023.jpg" data-toggle="lightbox" data-caption="12 November 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/12 November 2023.png" alt="12 November 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/20 November 2022.jpg" data-toggle="lightbox" data-caption="20 November 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/20 November 2022.png" alt="20 November 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/26 November 2022.jpg" data-toggle="lightbox" data-caption="26 November 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/26 November 2022.png" alt="26 November 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/10 Desember 2022.jpg" data-toggle="lightbox" data-caption="10 Desember 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/10 Desember 2022.png" alt="10 Desember 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/10 Desember 2022 (2).jpg" data-toggle="lightbox" data-caption="10 Desember 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/10 Desember 2022 (2).png" alt="10 Desember 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/21 Desember 2022.png" data-toggle="lightbox" data-caption="21 Desember 2022" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/21 Desember 2022.png" alt="21 Desember 2022" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/29 Januari 2023.png" data-toggle="lightbox" data-caption="29 Januari 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/29 Januari 2023.png" alt="29 Januari 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/18 Februari 2023.jpeg" data-toggle="lightbox" data-caption="18 Februari 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/18 Februari 2023.png" alt="18 Februari 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/4 Maret 2023.png" data-toggle="lightbox" data-caption="4 Maret 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/4 Maret 2023.png" alt="4 Maret 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/7 Maret 2023.jpg" data-toggle="lightbox" data-caption="7 Maret 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/7 Maret 2023.png" alt="7 Maret 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/7 April 2023.jpg" data-toggle="lightbox" data-caption="7 April 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/7 April 2023.png" alt="7 April 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/27 April 2023.jpg" data-toggle="lightbox" data-caption="27 April 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/27 April 2023.png" alt="27 April 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/10 Mei 2023.jpeg" data-toggle="lightbox" data-caption="10 Mei 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/10 Mei 2023.png" alt="10 Mei 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/18 Mei 2023.png" data-toggle="lightbox" data-caption="18 Mei 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/18 Mei 2023.png" alt="18 Mei 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/25 Mei 2023.jpg" data-toggle="lightbox" data-caption="25 Mei 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/25 Mei 2023.png" alt="25 Mei 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/28 Mei 2023.jpg" data-toggle="lightbox" data-caption="28 Mei 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/28 Mei 2023.png" alt="28 Mei 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/7 juni 2023.jpeg" data-toggle="lightbox" data-caption="7 Juni 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/7 Juni 2023.png" alt="7 Juni 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/17 Juni 2023.jpeg" data-toggle="lightbox" data-caption="17 Juni 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/17 Juni 2023.png" alt="17 Juni 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/6 Juli 2023.jpeg" data-toggle="lightbox" data-caption="6 Juli 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/6 Juli 2023.png" alt="6 Juli 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/19 Juli 2023.jpeg" data-toggle="lightbox" data-caption="19 Juli 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/19 Juli 2023.png" alt="19 Juli 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/23 Juli 2023.jpeg" data-toggle="lightbox" data-caption="23 Juli 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/23 Juli 2023.png" alt="23 Juli 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/2 Agustus 2023.jpeg" data-toggle="lightbox" data-caption="2 Agustus 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/2 Agustus 2023.png" alt="2 Agustus 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8 Agustus 2023 (1).jpeg" data-toggle="lightbox" data-caption="8 Agustus 2023 (1)" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/8 Agustus 2023 (1).png" alt="8 Agustus 2023 (1)" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8 Agustus 2023 (2).jpeg" data-toggle="lightbox" data-caption="8 Agustus 2023 (2)" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/8 Agustus 2023 (2).png" alt="8 Agustus 2023 (2)" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8 Agustus 2023 (3).jpeg" data-toggle="lightbox" data-caption="8 Agustus 2023 (3)" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/8 Agustus 2023 (3).png" alt="8 Agustus 2023 (3)" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/8 Agustus 2023 (4).jpeg" data-toggle="lightbox" data-caption="8 Agustus 2023 (4)" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/8 Agustus 2023 (4).png" alt="8 Agustus 2023 (4)" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/24 Agustus 2023.jpeg" data-toggle="lightbox" data-caption="24 Agustus 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/24 Agustus 2023.png" alt="24 Agustus 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/2 September 2023.jpeg" data-toggle="lightbox" data-caption="2 September 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/2 September 2023.png" alt="2 September 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/3 September 2023.jpeg" data-toggle="lightbox" data-caption="3 September 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/3 September 2023.png" alt="3 September 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/10 September 2023.jpeg" data-toggle="lightbox" data-caption="10 September 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/10 September 2023.png" alt="10 September 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/21 September 2023.jpeg" data-toggle="lightbox" data-caption="21 September 2023" data-gallery="my-gallery">
+              <img src="img/gallery/thumbnail/21 September 2023.png" alt="21 September 2023" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2023 Azwer Web. All Rights Reserved.</small>
+            <small class="block">Design by <a href="https://instagram.com/nzwn_sm">Nazwan SM</a>.</small>
+
+            <ul class="mt-3">
+              <li><a href="https://instagram.com/nzwn_sm" target="_blank"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://youtu.be/dQw4w9WgXcQ?si=8Gy2jyrHe7BrGX-n" target="_blank"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="https://open.spotify.com/user/21cmqeirsdtkr6hqzndylirzq?si=c33aa57818ac46fb" target="_blank"><i class="bi bi-spotify"></i></a></li>
+              <li><a href="https://www.tiktok.com/@azwerr_" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/x2mate.com - Rizky Febian & Mahalini - You're Mine [Official Music Video] (192 kbps).mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown('.simply-countdown', {
+        year: 2023, // required
+        month: 10, // required
+        day: 22, // required
+        hours: 0, // Default is 0 [0-23] integer
+        words: {
+          days: { singular: 'hari', plural: 'hari' },
+          hours: { singular: 'jam', plural: 'jam' },
+          minutes: { singular: 'menit', plural: 'menit' },
+          seconds: { singular: 'detik', plural: 'detik' }
+        },  
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song');
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll () {
+        window.onscroll = function () { }
+        rootElement.style.scrollBehavior = 'smooth';
+        //localStorage.setItem('opened', 'true');
+        playAudio();
+      }
+
+      function playAudio(){
+        
+        song.volume = 0.05;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function() {
+        if(isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else {
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+          song.play();
+        }
+
+        isPlaying = !isPlaying
+      }
+
+      //if(!localStorage.getItem('opened')) {
+      //  disableScroll ();
+      //}
+      disableScroll ();
+    </script>
+  </body>
+</html>
